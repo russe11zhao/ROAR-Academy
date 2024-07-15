@@ -11,7 +11,7 @@ import numpy as np
 x = np.arange(0,2*np.pi,0.1)
 
 # Create a sin function sample
-y0 = np.sin(x)
+y0 = np.sin(x) #apply sin to every element
 plt.plot(x, y0, color = 'r', linewidth = 3)
 
 # Create a dash cos function sample
